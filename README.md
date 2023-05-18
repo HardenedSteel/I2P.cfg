@@ -1,5 +1,5 @@
 ### What this config do?
-* All connection settings are configured before.
+* All connection settings are pre-configured.
 * Security level is "highest" as default but can be changed for current session.
 * .I2P TLD is added. - So you don't have to add "http://" to every eepsite link.
 * https-only mode disabled.
