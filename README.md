@@ -8,6 +8,6 @@
 ### Installation
 1. Download [Mullvad Browser](https://mullvad.net/en/download/browser/) and extract the files.
 2. Launch the browser once. If you used the browser before you can skip this step.
-3. Download [autoconfig.js](https://github.com/HardenedSteel/I2P.cfg/blob/main/autoconfig.js) and put it in `/Browser/defaults/pref`
-4. Download [I2P.cfg](https://github.com/HardenedSteel/I2P.cfg/blob/main/I2P.cfg) and put it in `/Data/xxxxxxxx.profilename`
+3. Download [autoconfig.js](https://github.com/HardenedSteel/I2P.cfg/blob/main/autoconfig.js) and put it in `/Browser/defaults/pref` folder.
+4. Download [I2P.cfg](https://github.com/HardenedSteel/I2P.cfg/blob/main/I2P.cfg) and put it in `/Browser` folder.
 5. Restart the browser if it is open.
