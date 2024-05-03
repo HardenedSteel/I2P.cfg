@@ -1,0 +1,44 @@
+{
+    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
+    "policies": {
+        "AppUpdateURL": "https://localhost",
+        "DisableAppUpdate": true,
+        "NoDefaultBookmarks": true,
+        "Extensions": {
+            "Uninstall": [
+                "brave@search.mozilla.org",
+                "ddg@search.mozilla.org",
+                "ddg-html@search.mozilla.org",
+                "metager@search.mozilla.org",
+                "{d19a89b9-76c1-4a61-bcd4-49e8de916403}",
+                "mullvad-leta@search.mozilla.org",
+                "startpage@search.mozilla.org",
+                "mojeek@search.mozilla.org"
+            ]
+        },
+        "SearchEngines": {
+            "PreventInstalls": false,
+            "Remove": [
+                "DuckDuckGo",
+                "DuckDuckGo HTML",
+                "Mullvad Leta",
+                "Mojeek",
+                "Brave Search",
+                "Startpage",
+                "MetaGer"
+            ],
+            "Default": "Legwork",
+            "Add": [
+                {
+                    "Name": "Legwork",
+                    "Description": "Legwork.i2p is an experimental YaCy-based search engine for the I2P anonymity network.",
+                    "Alias": "",
+                    "Method": "POST",
+                    "URLTemplate": "http://legwork.i2p/yacysearch.html?query={searchTerms}",
+                    "PostData": "q={searchTerms}"
+                }
+            ]
+        }
+    }
+}
+
